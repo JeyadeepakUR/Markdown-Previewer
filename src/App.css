@@ -1,0 +1,39 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.markdown-previewer {
+  display: flex;
+  flex-direction: row;
+}
+
+.markdown-input, .markdown-output {
+  flex: 1;
+  height: 400px;
+  margin: 20px;
+  padding: 30px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.05);
+}
+
+.markdown-input {
+  margin-right: 20px;
+}
+
+.markdown-output {
+  overflow-y: auto;
+}
